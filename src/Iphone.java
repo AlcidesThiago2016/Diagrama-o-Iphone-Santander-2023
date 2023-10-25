@@ -59,4 +59,25 @@ public class Iphone implements Start, MusicPlayer, Call, BrowserTheInternet {
     public void turnOffDevice() {
         System.out.println("Phone Off!");
     }
+
+    public static void main(String[] args) {
+        Iphone iphone = new Iphone();
+
+        System.out.println("**********Starting phone!*************");
+
+        iphone.turnOnDevice();
+        iphone.connect();
+        iphone.meet();
+        iphone.starVoicemail();
+
+        iphone.touch();
+        iphone.selectSongs();
+        iphone.pause();
+
+        iphone.openBrowser();
+        iphone.displayPage();
+        iphone.updatePage();
+
+        iphone.turnOffDevice();
+    }
 }
