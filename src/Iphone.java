@@ -17,46 +17,46 @@ public class Iphone implements Start, MusicPlayer, Call, BrowserTheInternet {
 
     @Override
     public void updatePage() {
-
+        System.out.println("Update Page!");
     }
 
     @Override
     public void connect() {
-
+        System.out.println("Phone making a call!");
     }
 
     @Override
     public void meet() {
-
+        System.out.println("Answered call!");
     }
 
     @Override
     public void starVoicemail() {
-
+        System.out.println("Voicemail box started!");
     }
 
     @Override
     public void touch() {
-
+        System.out.println("Playing music!");
     }
 
     @Override
     public void pause() {
-
+        System.out.println("Music paused!");
     }
 
     @Override
     public void selectSongs() {
-
+        System.out.println("Selected music!");
     }
 
     @Override
     public void turnOnDevice() {
-
+        System.out.println("Phone Connected!");
     }
 
     @Override
     public void turnOffDevice() {
-
+        System.out.println("Phone Off!");
     }
 }
