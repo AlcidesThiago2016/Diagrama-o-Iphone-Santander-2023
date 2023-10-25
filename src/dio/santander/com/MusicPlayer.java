@@ -6,4 +6,6 @@ public interface MusicPlayer {
     void pause();
     void selectSongs();
 
+
+
 }
